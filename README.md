@@ -1,1 +1,0 @@
-ws-minimap2
