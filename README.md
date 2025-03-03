@@ -43,7 +43,7 @@ meryl print greater-than distinct=0.9998 merylDB > repetitive_k15.txt
 ./minimap2 -k 19 --syncs 15 --synct 3  -W repetitive_k15.txt -a ref.fa query.fq > out.sam
 ```
 
-### Algorithm overview
+## Algorithm overview
 
 The weighted syncmer sampling method improves the weighting function part in the syncmer sampling method, similar to the weighted minimizer method. This method re-assigns weights based on whether the s-mer is a highly repetitive sequence after assigning weights by the weight hash function.
 
